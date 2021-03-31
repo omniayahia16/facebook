@@ -1,0 +1,11 @@
+.nav-link{
+  font-size: $font-size-base;
+  color: $gray-800;
+  font-family: $font-family-bold;
+  &.active, &:hover{
+    color: $primary;
+    border-bottom: $border-width-lg solid $primary;
+  }
+}
+
+

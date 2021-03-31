@@ -1,0 +1,36 @@
+.cover-img{
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+.user-img{
+  @extend .mb-2, .rounded-circle, .avatar-lg;
+  border:$border-width-lg solid $light;
+  margin-top: -75px;
+}
+.user-slogan{
+  font-size: $font-size-lg;
+}
+
+.user-images{
+  @include BGimage(4);
+  div[class*="img-"]{
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.intro-list {
+  @extend .list-unstyled;
+  li{
+    @extend .mb-2;
+    .fa{
+      @extend .text-black-50;
+      font-size: $icon-sm;
+      display: inline-block;
+      width: 30px;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.card{
+  @extend .mb-3;
+  @extend .shadow-sm;
+  padding: 15px;
+  border-radius: $border-radius-md;
+  .card-title{
+    margin-bottom: 16px;
+  }
+}

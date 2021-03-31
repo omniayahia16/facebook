@@ -1,0 +1,7 @@
+@mixin BGimage($length, $extension:jpg){
+  @for $i from 1 through $length{
+    .img-#{$i}{
+      background-image: url("../../images/profile/img-#{$i}.#{$extension}");
+    }
+  }
+}
