@@ -1,0 +1,16 @@
+[
+  {
+    "userInfo":{
+      "userImg":"../assets/images/profile/user.png",
+      "name":"omnia yahia",
+      "slogan": "slogan"
+    },
+    "introList":{
+      "education": "Fine Arts, Decor Department",
+      "livesIn": "Alexandria, Egypt",
+      "from": "Alexandria, Egypt",
+      "dateOfBirth": "1992"
+    }
+  }
+]
+
